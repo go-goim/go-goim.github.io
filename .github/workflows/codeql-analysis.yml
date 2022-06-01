@@ -16,7 +16,7 @@ on:
     - main
     - master
   schedule:
-    - cron: '0 11 * * 5'
+    - cron: '0 11 * * *'
 
 jobs:
   analyze:
