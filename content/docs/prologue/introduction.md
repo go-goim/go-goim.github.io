@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 20
+weight: 1
 toc: true
 ---
 
@@ -28,7 +28,7 @@ make run Srv=msg
 
 ### 整体能力规划
 
-![design](https://go-goim.github.io/images/goim.png)
+<!-- ![design](https://go-goim.github.io/images/goim.png) -->
 
 #### 客户端如何查找和连接长连接服务
 
