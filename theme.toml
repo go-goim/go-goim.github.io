@@ -1,0 +1,13 @@
+name = "GoIM"
+license = "MIT"
+licenselink = "https://github.com/go-goim/goim/blob/main/LICENSE"
+description = "Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+
+homepage = "https://github.com/go-goim/goim"
+
+tags = ["instance messaging", "documentation", "blog", "go", "goim", "performance", "microservice","message"]
+features = ["fast delivery", "stabe","high performance","multi db", "elk","grpc"]
+
+[author]
+  name = "YusanK"
+  homepage = "https://yusank.space"

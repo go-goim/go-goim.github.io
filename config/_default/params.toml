@@ -1,0 +1,92 @@
+# Meta Data for SEO
+
+## Homepage
+title = "GoIM"
+titleSeparator = "-"
+titleAddition = "Instant Messaging service written in Golang"
+description = "Instant Messaging service written in Golang"
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["doks.png"]
+ogLocale = "en_US"
+domainTLD = "go-goim.github.io"
+titleHome = "Doks Theme"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "GoIM"
+schemaAuthor = "YusanK"
+schemaAuthorTwitter = ""
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/yusan-kurban-037a31a7/"
+schemaAuthorGitHub = "https://github.com/yusank"
+schemaLocale = "en-US"
+schemaLogo = "icon.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "logo.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = ""
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/go-goim/goim"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) 2020-2021 YusanK"
+
+# Alert
+alert = true
+alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+alertText = "GoIM still in development. Welcome to join the development! <a class=\"alert-link stretched-link\" href=\"https://github.com/go-goim/goim\" target=\"_blank\" rel=\"noopener\">Join the development</a>"
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/go-goim/go-goim.github.io"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = false
+lastMod = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = false
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = false
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = true
+  version = "v0.1.0"
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
