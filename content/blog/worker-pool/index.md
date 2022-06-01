@@ -1,6 +1,6 @@
 ---
 title: "实现异步并发 worker 队列"
-description: "在开发 broadcast 功能的时候，碰到一个比较棘手的问题，需要并发执行多个 worker 来讲 broadcast 消息推送到所有在线用户，同时我希望能控制并发数量。本文记录实现一个异步并发 worker 队列的过程。"
+description: "在开发 broadcast 功能的时候，碰到一个比较棘手的问题，需要并发执行多个 worker 来将 broadcast 消息推送到所有在线用户，同时我希望能控制并发数量。本文记录实现一个异步并发 worker 队列的过程。"
 lead: "在开发 broadcast 功能的时候，碰到一个比较棘手的问题，需要并发执行多个 worker 来讲 broadcast 消息推送到所有在线用户，同时我希望能控制并发数量。本文记录实现一个异步并发 worker 队列的过程。"
 date: 2022-04-11T09:19:42+01:00
 lastmod: 2022-04-12T09:19:42+01:00
@@ -58,7 +58,7 @@ func (w *LimitedWaitGroup) Wait() {
 
 1. worker pool 支持设置 size，防止 worker 无限增多
 2. 任务并发执行且能指定并发数
-3. 当 worker 达到上线时，新的任务在一定范围内支持排队等待（即 `limited queue`）
+3. 当 worker 达到上限时，新的任务在一定范围内支持排队等待（即 `limited queue`）
 4. 支持捕获任务错误
 5. 排队中的任务应该按顺序调度执行
 
@@ -507,7 +507,7 @@ func TestPool_SubmitOrEnqueue(t *testing.T) {
 
 - 介绍背景和需求
 - 根据需求定义了一组概念：`task`, `worker`, `workerSet`, `pool`
-- 各个结构之前的关系以及如何实现
+- 各个结之间的关系以及如何实现
 - 最终给出使用的 test case.
 
 ## 链接 🔗
