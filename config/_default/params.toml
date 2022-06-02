@@ -10,10 +10,10 @@ description = "Instant Messaging service written in Golang"
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["logo_2.png"]
 ogLocale = "en_US"
 domainTLD = "go-goim.github.io"
-titleHome = "Doks Theme"
+titleHome = "GoIM"
 
 ## JSON-LD
 # schemaType = "Person"
@@ -66,7 +66,7 @@ alertText = "GoIM still in development. Welcome to join the development! <a clas
 repoHost = "GitHub"
 #repoHost = "Gitea"
 docsRepo = "https://github.com/go-goim/go-goim.github.io"
-docsRepoBranch = "master"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
 lastMod = false

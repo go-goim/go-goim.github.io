@@ -28,7 +28,7 @@ make run Srv=msg
 
 ### 整体能力规划
 
-![design](https://go-goim.github.io/images/goim.png)
+<img src="goim.png">
 
 #### 客户端如何查找和连接长连接服务
 
@@ -61,11 +61,11 @@ make run Srv=msg
 
 ##### 纯 httpdns
 
-![ws](https://go-goim.github.io/images/conn_ws_dns.png)
+<img src="conn_ws_dns.png">
 
 ##### 结合 gateway
 
-![gateway](https://go-goim.github.io/images/conn_ws_gateway.png)
+<img src="conn_ws_gateway.png">
 
 #### 结论
 
@@ -80,4 +80,4 @@ make run Srv=msg
 
 IM 数据将在 HBASE 上存储，关系型数据存在 MySQL
 
-![msg](https://go-goim.github.io/images/send_rec_msg.png)
+<img src="send_rec_msg.png">
