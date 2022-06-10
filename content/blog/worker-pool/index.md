@@ -1,4 +1,5 @@
 ---
+slug: "worker-pool"
 title: "实现异步并发 worker 队列"
 description: "在开发 broadcast 功能的时候，碰到一个比较棘手的问题，需要并发执行多个 worker 来将 broadcast 消息推送到所有在线用户，同时我希望能控制并发数量。本文记录实现一个异步并发 worker 队列的过程。"
 lead: "在开发 broadcast 功能的时候，碰到一个比较棘手的问题，需要并发执行多个 worker 来讲 broadcast 消息推送到所有在线用户，同时我希望能控制并发数量。本文记录实现一个异步并发 worker 队列的过程。"
